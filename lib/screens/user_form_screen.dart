@@ -1,7 +1,7 @@
 // lib/screens/user_form_screen.dart
 import 'package:flutter/material.dart';
-import 'package:kinesiology_app/database/db_helper.dart';
-import 'package:kinesiology_app/models/user.dart';
+import 'package:consultorio_wm/database/db_helper.dart';
+import 'package:consultorio_wm/models/user.dart';
 
 // Pantalla para añadir o editar un usuario
 class UserFormScreen extends StatefulWidget {

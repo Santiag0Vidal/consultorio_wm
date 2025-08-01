@@ -1,3 +1,4 @@
+// android/app/build.gradle.kts
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -8,7 +9,10 @@ plugins {
 android {
     namespace = "com.example.consultorio_wm"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    
+    // CORRECCIÓN AQUÍ: Reemplazamos la versión dinámica por la versión 27
+    // ndkVersion = flutter.ndkVersion // Esta línea fue reemplazada
+    ndkVersion = "27.0.12077973" // <-- Usa esta versión, que es la que tus plugins necesitan
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

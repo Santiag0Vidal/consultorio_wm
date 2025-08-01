@@ -4,7 +4,7 @@ import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:intl/intl.dart';
-import 'package:kinesiology_app/models/fms_test.dart';
+import 'package:consultorio_wm/models/fms_test.dart';
 import 'package:permission_handler/permission_handler.dart'; // Importa para manejar permisos
 
 // Clase para exportar datos a formato CSV
@@ -31,7 +31,7 @@ class CsvExporter {
     'ESTOCADA EN LÍNEA_D_Comentarios',
     'ESTOCADA EN LÍNEA_D_Foto',
     'MOVILIDAD DE HOMBRO_I_Puntaje',
-    'MOVILIDAD DE HOMBRO_I_Comentarios',
+    'MOVILIDAD DE HOMBRO_I_Comentarios',  
     'MOVILIDAD DE HOMBRO_I_Foto',
     'MOVILIDAD DE HOMBRO_D_Puntaje',
     'MOVILIDAD DE HOMBRO_D_Comentarios',

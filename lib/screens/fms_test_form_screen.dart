@@ -2,8 +2,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:kinesiology_app/database/db_helper.dart';
-import 'package:kinesiology_app/models/fms_test.dart';
+import 'package:consultorio_wm/database/db_helper.dart';
+import 'package:consultorio_wm/models/fms_test.dart';
 import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart'; // Importa para manejar permisos
 

@@ -1,8 +1,8 @@
 // lib/database/db_helper.dart
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:kinesiology_app/models/user.dart';
-import 'package:kinesiology_app/models/fms_test.dart';
+import 'package:consultorio_wm/models/user.dart';
+import 'package:consultorio_wm/models/fms_test.dart';
 
 // Clase para manejar todas las operaciones de la base de datos
 class DatabaseHelper {
